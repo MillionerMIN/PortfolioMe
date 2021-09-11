@@ -1,0 +1,9 @@
+/* Bg color
+----------------------------*/
+.theme-light {
+  background: $px-gray;
+
+  .theme-light & {
+    background: $px-gray;
+  }
+}
