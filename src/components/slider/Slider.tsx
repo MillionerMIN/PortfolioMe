@@ -19,7 +19,7 @@ export const Slider = () => {
       {/* Home Banner */}
       <section id='home' className='home-banner'>
         <div className="hb-top-fixed d-flex">
-          <div className="hb-flex">
+          <div className="hb-info">
             <a href="tel: +375 44 776 62 14">{conctInfo.phone}</a>
             <a href="mailto:liankevichvladimir@gmail.com">{conctInfo.email}</a>
           </div>
@@ -39,7 +39,7 @@ export const Slider = () => {
                   fade
                   mask={false}
                   noWrap
-                  springConfig={{stiffness: 340, damping: 30 }}
+                  springConfig={{ stiffness: 340, damping: 30 }}
                 >
                   <p className="loop-text lead">Front-end Developer</p>
                   <p className="loop-text lead">App Developer</p>
@@ -48,9 +48,9 @@ export const Slider = () => {
                 <p className="desc">{sliderContent.description}</p>
                 <div className="mt-4">
                   <a href="img/resume.pdf"
-                   className="px-btn px-btn-white"
-                   download
-                   >{sliderContent.btnText}</a>
+                    className="px-btn px-btn-white"
+                    download
+                  >{sliderContent.btnText}</a>
                 </div>
               </div>
             </div>
@@ -58,7 +58,14 @@ export const Slider = () => {
         </div>
         {/** End Container */}
 
+        <div className="hb-me"
+          style={{
+            backgroundImage: `url(${process.env.PUBLIC_URL + "img/slider/home-photo.png"
+              })`,
+          }}
+        ></div>
       </section>
+      {/** End home Banner */}
     </>
   )
 }

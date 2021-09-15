@@ -1,4 +1,5 @@
 import React from "react";
+import { About } from "../../components/about/About";
 import { Header } from "../../components/header/Header";
 import { Slider } from "../../components/slider/Slider";
 import { useDocumentTitle } from "../../components/useDocumentTitle";
@@ -14,6 +15,8 @@ export const HomeOne = () => {
 
       <Slider/>
       {/* End Slider Section */}
+
+      <About />
     </div>
   )
 } 
