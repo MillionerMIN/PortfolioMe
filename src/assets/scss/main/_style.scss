@@ -346,9 +346,12 @@
     margin: auto;
     overflow: hidden;
     border: 5px solid $px-white;
+    img {
+      border: none;
+    }
 
     .theme-light & {
-      border: 5px solid $px-theme;
+      border: 10px solid $px-theme;
     }
   }
 

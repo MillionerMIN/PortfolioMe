@@ -20,8 +20,8 @@
 
     .theme-light & {
       color: $px-white;
-      background: $px-dark;
-      border-color: $px-dark;
+      background: $px-theme;
+      border-color: $px-theme;
     }
 
     &:hover {

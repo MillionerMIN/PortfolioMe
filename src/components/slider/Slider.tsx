@@ -19,7 +19,7 @@ export const Slider = () => {
       {/* Home Banner */}
       <section id='home' className='home-banner'>
         <div className="hb-top-fixed d-flex">
-          <div className="hb-flex">
+          <div className="hb-info">
             <a href="tel: +375 44 776 62 14">{conctInfo.phone}</a>
             <a href="mailto:vladimirlyn@gmail.com">{conctInfo.email}</a>
           </div>
@@ -68,8 +68,8 @@ export const Slider = () => {
         >
           
         </div>
-
       </section>
+      {/** End home Banner */}
     </>
   )
 }
