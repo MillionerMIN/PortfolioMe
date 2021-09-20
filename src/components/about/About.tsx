@@ -35,7 +35,8 @@ export const About = () => {
                 </div>
                 <div className="about-text">
                   <p>
-                    I'm a Front-end Developer with experience in creating landing page, SPA with React/Redux/TypeScript. I'm from Minsk. I like work
+                    I'm a Front-end Developer with experien
+                    ce in creating landing page, SPA with React/Redux/TypeScript. I'm from Minsk. I like work
                     with new people. New people new Experiences.
                   </p>
                 </div>
