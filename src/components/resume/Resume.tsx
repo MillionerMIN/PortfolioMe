@@ -2,29 +2,29 @@ import React from "react";
 import { Skills } from "../skills/Skills";
 
 const resumeContent = [
-  {
+  { 
     jobPosition: `Front-end developer`,
     jobType: ``,
     jobDuration: `Apr 2021 - Present`,
     timeDuraton: `Full Time`,
     compnayName: `Freelance`,
-    jobDescription: `landing page, fix bugs, teamwork`,
+    jobDescription: `React development using redux, react-redux, react-routerdom, redux-thunk, axios, formik, ant-design libraries. Work with Hooks, TypeScript. Reusable components development experience in cross-browser, adaptive, responsive development, CSS-preprocessors. Implemented flowauthorization, notification, forms (Formik and Redux-form)`,
   },
   {
     jobPosition: `Work manager (foreman)`,
     jobType: ``,
-    jobDuration: `2012 - 2021`,
+    jobDuration: `Feb 2012 - Aug 2021`,
     timeDuraton: `Full Time`,
     compnayName: `UM-70 OJSC Trest 15 Spetsstroy`,
-    jobDescription: `organization of construction production, communication and reporting to the customer, quality control and timing of work, paperwork for putting objects into operation`,
+    jobDescription: `Organization of construction production.Communication and reporting to the customer. Quality control and timing of work. Paperwork for putting objects into operation`,
   },
   {
     jobPosition: `Work manager (foreman)`,
     jobType: ``,
-    jobDuration: `2007 - 2012`,
+    jobDuration: `Aug 2007 - Jan 2012`,
     timeDuraton: `Full Time`,
     compnayName: `OJSC Stroymaztrest`,
-    jobDescription: `organization of construction production, communication and reporting to the customer, quality control and timing of work, paperwork for putting objects into operation`,
+    jobDescription: `Distribution of production tasks. Distribution of wages among employees. Communication with the customer`,
   }
 ];
 
@@ -34,6 +34,11 @@ const educatonContent = [
     degreeTitle: "Front-end Developer",
     instituteName: "IT-Incubator",
   },
+  {
+    passingYear: "2020",
+    degreeTitle: "Front-end Developer",
+    instituteName: "Udemy",
+  }, 
   {
     passingYear: "2019-2023",
     degreeTitle: "Civil Engineering",
@@ -83,7 +88,7 @@ export const Resume = () => {
           {/**separated */}
           <div className="separated"
             style={{
-              backgroundImage: `url(${process.env.PUBLIC_URL + "img/border-dark.png"
+              backgroundImage: `url(${process.env.PUBLIC_URL + "/img/border-dark.png"
                 })`,
             }}
           ></div>

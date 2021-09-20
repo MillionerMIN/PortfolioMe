@@ -130,12 +130,12 @@
       label,
       a {
         margin: 0;
-        color: $px-white;
+        color: $px-green;
         font-weight: 400;
         font-size: 14px;
 
         .theme-light & {
-          color: $px-dark;
+          color: $px-green;
         }
 
         +a {

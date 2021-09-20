@@ -6,7 +6,7 @@ import { HomeOne as HomeLight } from "../views/all-home-version/HomeLight";
 export const Router = () => {
    return (
       <>
-            <Route exact path={'/'} component={HomeLight}/>
+            <Route path={'/'} component={HomeLight} /> 
       </>
    );
 }

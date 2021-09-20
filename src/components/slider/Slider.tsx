@@ -8,7 +8,7 @@ const conctInfo = {
 
 const sliderContent = {
   name: 'Vladimir Liankevich',
-  description: 'I front-end developer with experience in creating landing pages, SPA with React/Redux/TypeScript',
+  description: 'I front-end developer with experience in creating landing pages, SPA with React/Redux/JavaScript/TypeScript',
   btnText: 'Download CV',
 }
 

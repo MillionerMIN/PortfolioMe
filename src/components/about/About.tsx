@@ -12,7 +12,7 @@ export const About = () => {
               <div className="about-me">
                 <div className="img">
                   <div className="img-in">
-                    <img src="img/about/about-me.jpg" alt="about-me" />
+                    <img src={`${process.env.PUBLIC_URL + "/img/about/about-me.jpg"}`} alt="about-me" />
                   </div>
                   <Social />
                   {/**End social icon */}
@@ -35,8 +35,7 @@ export const About = () => {
                 </div>
                 <div className="about-text">
                   <p>
-                    I'm a Front-end Developer with experien
-                    ce in creating landing page, SPA with React/Redux/TypeScript. I'm from Minsk. I like work
+                    I'm a Front-end Developer with experience in creating landing page, SPA with React/Redux (JS/TS). I'm from Minsk. I like work
                     with new people. New people new Experiences.
                   </p>
                 </div>
@@ -58,7 +57,7 @@ export const About = () => {
                         </li>
                         <li>
                           <label>Address: </label>
-                          <span>Belarus city Minsk</span>
+                          <span>Minsk Belarus</span>
                         </li>
                       </ul>
                     </div>
@@ -74,7 +73,7 @@ export const About = () => {
                         </li>
                         <li>
                           <label>Work: </label>
-                          <span>open for work</span>
+                          <span>open to for suggest</span>
                         </li>
                       </ul>
                     </div>
@@ -84,21 +83,7 @@ export const About = () => {
             </div>
             {/**End col */}
           </div>
-
-          {/**separated */}
-          <div className="separated"
-            style={{
-              backgroundImage: `url(${process.env.PUBLIC_URL + "img/border-dark.png"
-                })`,
-            }}
-          ></div>
-          {/**End separated */}
-          <div className="title">
-            <h3>What I do?</h3>
-          </div>
-          <Services />
         </div>
-
       </section>
     </>
 

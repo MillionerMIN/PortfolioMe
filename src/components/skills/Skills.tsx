@@ -18,8 +18,8 @@ const skillContent = [
   },
   {
     name: "TypeScript",
-    percent: "70",
-    numberPercent: "70",
+    percent: "65",
+    numberPercent: "60",
   },
 ]
 

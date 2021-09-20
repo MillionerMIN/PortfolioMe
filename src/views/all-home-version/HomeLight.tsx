@@ -1,6 +1,7 @@
 import React from "react";
 import { About } from "../../components/about/About";
 import { Header } from "../../components/header/Header";
+import { Resume } from "../../components/resume/Resume";
 import { Slider } from "../../components/slider/Slider";
 import { useDocumentTitle } from "../../components/useDocumentTitle";
 
@@ -17,6 +18,11 @@ export const HomeOne = () => {
       {/* End Slider Section */}
 
       <About />
+      {/* End About Section */}
+
+      <Resume />
+      {/* End Resume Section */}
+
     </div>
   )
 } 

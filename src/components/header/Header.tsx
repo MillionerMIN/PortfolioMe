@@ -48,7 +48,11 @@ export const Header = () => {
                 onClick={handleClick}
               >
                 <FaHome />
-                <ReactTooltip id='HOME' place='top' type='dark' effect='float' >
+                <ReactTooltip 
+                id='HOME' 
+                place='top' 
+                type='dark' 
+                effect='float' >
                   <span>Home</span>
                 </ReactTooltip>
               </a>
@@ -62,7 +66,11 @@ export const Header = () => {
                 onClick={handleClick}
               >
                 <FaUser />
-                <ReactTooltip id='ABOUT' place='top' type='dark' effect='float' >
+                <ReactTooltip 
+                id='ABOUT' 
+                place='top' 
+                type='dark' 
+                effect='float' >
                   <span>About</span>
                 </ReactTooltip>
               </a>
@@ -76,7 +84,11 @@ export const Header = () => {
                 onClick={handleClick}
               >
                 <FiFileText />
-                <ReactTooltip id='RESUME' place='top' type='dark' effect='float' >
+                <ReactTooltip
+                  id='RESUME'
+                  place='top'
+                  type='dark'
+                  effect='float' >
                   <span>Resume</span>
                 </ReactTooltip>
               </a>
@@ -90,7 +102,11 @@ export const Header = () => {
                 onClick={handleClick}
               >
                 <FiBriefcase />
-                <ReactTooltip id='WORK' place='top' type='dark' effect='float' >
+                <ReactTooltip
+                  id='WORK'
+                  place='top'
+                  type='dark'
+                  effect='float' >
                   <span>Work</span>
                 </ReactTooltip>
               </a>
@@ -104,7 +120,10 @@ export const Header = () => {
                 onClick={handleClick}
               >
                 <FiPhoneOutgoing />
-                <ReactTooltip id='CONTACTS' place='top' type='dark' effect='float' >
+                <ReactTooltip id='CONTACTS'
+                  place='top'
+                  type='dark'
+                  effect='float' >
                   <span>Contacts</span>
                 </ReactTooltip>
               </a>
