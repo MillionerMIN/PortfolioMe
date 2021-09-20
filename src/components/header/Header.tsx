@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import Scrollspy from 'react-scrollspy';
 import ReactTooltip from "react-tooltip";
-import {FaBlog, FaHome, FaUser} from 'react-icons/fa';
+import { FaHome, FaUser } from 'react-icons/fa';
 import { FiBriefcase, FiFileText, FiPhoneOutgoing } from "react-icons/fi";
 
 export const Header = () => {
@@ -47,7 +47,7 @@ export const Header = () => {
                 data-for="HOME"
                 onClick={handleClick}
               >
-                <FaHome/>
+                <FaHome />
                 <ReactTooltip id='HOME' place='top' type='dark' effect='float' >
                   <span>Home</span>
                 </ReactTooltip>
@@ -96,33 +96,6 @@ export const Header = () => {
               </a>
             </li>
             <li>
-              <a
-                className='nav-link'
-                href="#blog"
-                data-tip
-                data-for="BLOG"
-                onClick={handleClick}
-              >
-                <FaBlog />
-                <ReactTooltip id='BLOG' place='top' type='dark' effect='float' >
-                  <span>Blog</span>
-                </ReactTooltip>
-              </a>
-            </li>
-            <li>
-              <a
-                className='nav-link'
-                href="#work"
-                data-tip
-                data-for="WORK"
-                onClick={handleClick}
-              >
-                <FaHome />
-                <ReactTooltip id='WORK' place='top' type='dark' effect='float' >
-                  <span>Work</span>
-                </ReactTooltip>
-              </a>
-            </li><li>
               <a
                 className='nav-link'
                 href="#contacts"
