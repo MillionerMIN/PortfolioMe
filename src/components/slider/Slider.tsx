@@ -62,7 +62,7 @@ export const Slider = () => {
         <div className="hb-me"
         style={{
           backgroundImage: `url(${
-            process.env.PUBLIC_URL + 'img/slider/home-bg.png'
+            process.env.PUBLIC_URL + '/img/slider/home-bg.png'
           })`
         }}
         >
