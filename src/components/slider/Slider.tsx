@@ -47,7 +47,7 @@ export const Slider = () => {
                 </TextLoop>{" "}
                 <p className="desc">{sliderContent.description}</p>
                 <div className="mt-4">
-                  <a href="img/resume.pdf"
+                  <a href="img/CV.pdf"
                     className="px-btn px-btn-white"
                     download>
                     {sliderContent.btnText}

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Services } from '../service/Services';
 import { Social } from '../Social';
 
 export const About = () => {

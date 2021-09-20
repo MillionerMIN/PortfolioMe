@@ -3,15 +3,17 @@ import {
   FaFacebookF,
   FaGithub,
   FaLinkedinIn,
-  FaTelegram
+  FaTelegram,
 } from 'react-icons/fa';
+import { SiCodewars} from 'react-icons/si';
 
 
 const SocialShare = [
   { Social: <FaFacebookF />, link: "https://www.facebook.com/vladimir.liankevich" },
   { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/in/vladimirliankevich" },
   { Social: <FaGithub />, link: "https://github.com/MillionerMIN" },
-  { Social: <FaTelegram />, link: "https://t.me/millionerMIN" },
+  { Social: <FaTelegram />, link: "https://t.me/vladimir_lian" },
+  { Social: <SiCodewars />, link: "https://www.codewars.com/users/MillionerMIN" },
 ]
 
 export const Social = () => {
