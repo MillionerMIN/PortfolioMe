@@ -66,7 +66,6 @@ export const Slider = () => {
           })`
         }}
         >
-          
         </div>
       </section>
       {/** End home Banner */}
